@@ -1,0 +1,9 @@
+[submodule "dbsource/postgres"]
+	path = dbsource/postgres
+	url = git@github.com:supabase/postgres.git
+[submodule "dbsource/convex"]
+	path = dbsource/convex
+	url = git@github.com:get-convex/convex-backend.git
+[submodule "dbsource/turso"]
+	path = dbsource/turso
+	url = git@github.com:tursodatabase/turso.git
