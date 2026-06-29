@@ -1,0 +1,55 @@
+[install]
+minimumReleaseAge = 259200
+minimumReleaseAgeExcludes = [
+  "lucide-react",
+  "@next/wasm",
+  "@next/rs",
+  "@next/rs-linux-x64-gnu",
+  "@next/plugin-rspack",
+  "@next/plugin-sentry",
+  "@next/plugin-material-ui",
+  "@next/routing",
+  "@next/env",
+  "@next/mdx",
+  "next",
+  "@types/bun",
+  "typescript",
+  "motion",
+  "@typescript/native-preview",
+  "@typescript/native-preview-linux-x64",
+  "@typescript/native-preview-darwin-x64",
+  "@typescript/native-preview-linux-arm64",
+  "@typescript/native-preview-darwin-arm64",
+  "@typescript/native-preview-linux-arm",
+  "@typescript/native-preview-win32-arm64",
+  "@typescript/native-preview-win32-x64",
+  "@next/swc-linux-arm64-gnu",
+  "@next/swc-linux-arm64-musl",
+  "@next/swc-linux-x64-gnu",
+  "@next/swc-linux-x64-musl",
+  "shadcn",
+  "resend",
+  "railway",
+  "bun",
+  "framer-motion",
+  "motion-dom",
+  "@tiptap/cli",
+]
+optional = false
+peer = false
+exact = true
+ignoreScripts = true
+auto = "disable"
+prefer = "offline"
+linkWorkspacePackages = true
+
+
+[run]
+shell = "bun"
+noOrphans = true
+
+[test]
+coverageThreshold = 0.9
+
+[install.security]
+scanner = "@socketsecurity/bun-security-scanner"

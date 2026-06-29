@@ -1,0 +1,4 @@
+governance:
+  type: BDFL
+  BDFL: awfixer
+  open for alternatives: no.
